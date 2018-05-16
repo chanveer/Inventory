@@ -53,7 +53,7 @@ restService.post('/insert', function(req, res) {
 											console.log(err);
 										  }
 									});
-									var result = "Yeah it's added. You can add somemore items.";
+									var result = "Yeah it's added. You can add some more items.";
 								}else{
 									var result = "Product has been already added in the list.Do you want to update the quantity?";
 								}
@@ -99,7 +99,7 @@ restService.post('/insert', function(req, res) {
 										break;
 									}
 								}
-								var result = "Yeah it's updated. You can add somemore items.";	
+								var result = "Yeah it's updated. You can add some more items.";	
 								return res.json({
 									speech: result,
 									source: 'webhook-echo-one',
@@ -139,7 +139,7 @@ restService.post('/insert', function(req, res) {
 											console.log(err);
 										  }
 									});
-									var result = "Yeah it's added. You can add somemore items.";
+									var result = "Yeah it's added. You can add some more items.";
 								}else{
 									var result = "Product has been already added in the list.Do you want to update the quantity?";
 								}
@@ -192,7 +192,7 @@ restService.post('/insert', function(req, res) {
 											console.log(err);
 										  }
 									});
-									var result = "Yeah it's added. You can add somemore items.";
+									var result = "Yeah it's added. You can add some more items.";
 								}else{
 									var result = "Product has been already added in the list.Do you want to update the quantity?";
 								}
